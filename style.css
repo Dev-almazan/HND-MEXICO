@@ -228,7 +228,7 @@ padding-top: 2.5%;
 #cic
 {
 padding: .5%;
-    background-color: #CB9959;
+    
     color:#CB9959;  
 }
 /* PRODUCTOS */
@@ -269,13 +269,13 @@ height: auto;
     margin: 0 auto;
     justify-content: center;
     box-sizing: border-box;
-    background-image: url(img/tres.jpeg);
+    background-image: url(img/tres.png);
  background-attachment: scroll;
     background-repeat: no-repeat;
   padding-bottom: 35%;
     padding-top: 35%;
        background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .cuadro2
@@ -286,13 +286,13 @@ height: auto;
     margin: 0 auto;
     justify-content: center;
     box-sizing: border-box;
-    background-image: url(img/dos.jpeg);
+    background-image: url(img/dos.png);
  background-attachment: scroll;
     background-repeat: no-repeat;
   padding-bottom:35%;
     padding-top: 35%;
        background-position: center;
- background-size: cover;
+ background-size: contain;
 }
 
 .cuadro3
@@ -302,13 +302,13 @@ height: auto;
     margin: 0 auto;
     justify-content: center;
     box-sizing: border-box;
-    background-image: url(img/uno.jpeg);
+    background-image: url(img/uno.png);
  background-attachment: scroll;
     background-repeat: no-repeat;
   padding-bottom: 35%;
     padding-top: 35%;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     max-height: 1600px;
     
 }
@@ -316,7 +316,11 @@ height: auto;
 .lpro
 {
     color: white;
-    font-weight: 700;
+    font-weight: 600;
+    background-color: #CB9959;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    opacity: .8;
 }
 
 /*NUESTROS CLIENTES*/
