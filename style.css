@@ -2,12 +2,32 @@
     DEMO STYLE
 */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 body {
 font-family: 'Montserrat', sans-serif; 
 background-color: whitesmoke;
 }
+.btn-boton
+{
+    background-color: #090916;
+    color: white;
+    border: 2px solid #090916;
+    
+}
 
+.azul
+{
+color:#090916 ;    
+}
+.dorado
+{
+  color:#090916 ;  
+    
+}
 p {
    font-family: 'Montserrat', sans-serif;
     font-size: 1.1em;
@@ -228,7 +248,7 @@ padding-top: 2.5%;
 #cic
 {
 padding: .5%;
-    
+    background-color:  #CB9959;
     color:#CB9959;  
 }
 /* PRODUCTOS */
@@ -316,12 +336,41 @@ height: auto;
 .lpro
 {
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #CB9959;
     padding-top: 1%;
     padding-bottom: 1%;
     opacity: .8;
 }
+
+.plecat
+{
+    border-bottom: solid 8px #090916;
+    max-width: 32%;
+    margin: 0 auto;
+  padding-top: .5%;
+    padding-bottom: .3%;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+    margin-top: 15;
+    color: #090916;
+   text-align: center;
+}
+
+.plecatt
+{
+       border-bottom: solid 8px #090916;
+    max-width: 31%;
+
+    padding-top: .5%;
+    padding-bottom: .3%;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+    margin-top: 15;
+    color: #090916;
+   text-align: center;
+}
+
 
 /*NUESTROS CLIENTES*/
 
@@ -357,9 +406,27 @@ list-style: none;}
     overflow-y: scroll;
     max-height: 100%;
     height: 500px;
+    border-radius: 12px ;
 }
 
+/*PIE */
 
+.pie
+{
+    
+    max-width: 100%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #CB9959 ;
+    border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
+    font-size: 1.1em;
+    background-attachment: fixed;
+}
 
 
 
