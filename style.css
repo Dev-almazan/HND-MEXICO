@@ -457,6 +457,11 @@ list-style: none;}
     height: 100%;
     z-index: 10000;
 }
+    .secun
+{
+    padding-top:15%;
+    color: whitesmoke;
+}
    
     #content {
     width: 100%;
