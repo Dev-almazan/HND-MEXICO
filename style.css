@@ -237,6 +237,10 @@ justify-content: center;
 #sidebarCollapse
 {display: none;}
 
+#ocultar
+{
+    display: none;
+}
 
 #barrad
 
@@ -699,6 +703,10 @@ list-style: none;}
     background-attachment: fixed;
 }
 
-  
+  #ocultar
+{
+    display: block;
+}
+
 
 }

@@ -70,12 +70,11 @@
              
            
 
-            <div class="list-unstyled text-center secun wow bounceIn delay-3s">
-                        
-                  <img src="img/fcafe.png" width="60px" class="img " id="efectos">
-               <img src="img/wcaf.png" width="60px" class="img " id="efectos">  
-               <img src="img/icafe.png" width="60px" class="img " id="efectos">  
-              
+            <div class="list-unstyled text-center secun wow FadeIn delay-3s">
+             
+                      <img src="img/fazul.png" width="65px" class="img " id="efectos">
+               <img src="img/iazul.png" width="65px" class="img " id="efectos">  
+               <img src="img/wazul.png" width="65px" class="img " id="efectos">
                         </div>
         </nav>
 
@@ -437,12 +436,12 @@
           
                   <p class="text-white text-center wow fadeIn" >Copyright © HND MB México</p>
                 <p class="text-white wow fadeIn">Todas las imágenes presentes en esta página han sido utilizadas únicamente con fines ilustrativos. Los logotipos, marcas y nombres comerciales son propiedad de Hinode, y se usan únicamente con fines informativos. </p>
-    <div class=" text-center ">
-                        <img src="img/fazul.png" width="65px" class="img " id="efectos">
-               <img src="img/wazul.png" width="65px" class="img " id="efectos">  
-               <img src="img/iazul.png" width="65px" class="img " id="efectos">
+    <div class=" text-center " id="ocultar">
+                        <img src="img/fdorado.png" width="65px" class="img " id="efectos">
+               <img src="img/wdorado.png" width="65px" class="img " id="efectos">  
+               <img src="img/idorado.png" width="65px" class="img " id="efectos">
                         </div>
-                  
+                           
               </div>
               
               </div></div>
@@ -452,7 +451,32 @@
    
  </div>
 
-    
+    <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="112164023946019"
+  theme_color="#C89659"
+  logged_in_greeting="¡Bienvenido a HND MB México!  ¿Cómo podemos ayudarte?"
+  logged_out_greeting="¡Bienvenido a HND MB México!  ¿Cómo podemos ayudarte?">
+      </div>
     
     
     
