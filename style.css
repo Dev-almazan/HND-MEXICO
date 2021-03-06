@@ -138,8 +138,9 @@ overflow-y: scroll;
 }
 
 #sidebar ul li a:hover {
-    color: #090916;
-    background: #fff;
+    color: whitesmoke;
+    background: #CB9959;
+    font-weight: 600;
 }
 
 #sidebar ul li.active>a,
@@ -161,7 +162,7 @@ a[data-toggle="collapse"] {
 }
 
 ul ul a {
-    font-size: 0.9em !important;
+    font-size: 1em !important;
     padding-left: 30px !important;
     background: #090916;
 }
@@ -172,16 +173,13 @@ ul.CTAs {
 
 ul.CTAs a {
     text-align: center;
-    font-size: 0.9em !important;
+    font-size: 1em !important;
     display: block;
     border-radius: 5px;
     margin-bottom: 5px;
 }
 
-a.download {
-    background: #fff;
-    color: #090916;
-}
+
 
 a.article,
 a.article:hover {
