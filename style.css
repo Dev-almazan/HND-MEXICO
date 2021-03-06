@@ -381,7 +381,7 @@ height: auto;
     padding-top: 12%;
     padding-bottom: 12%;
     text-align: left;
-    background-image: url(img/WhatsApp%20Image%202021-03-03%20at%209.59.33%20PM.jpeg);
+    background-image: url(img/nuestros.jpeg);
     background-attachment: fixed;
     background-position: right;
     padding-left: 5%;
@@ -468,7 +468,7 @@ list-style: none;}
     /*BANNER*/
 .banner
 {
-    padding-top: 35%;
+    padding-top: 28%;
     padding-bottom: 5%;
 }
 
@@ -616,11 +616,12 @@ height: auto;
     padding-top: 12%;
     padding-bottom: 12%;
     text-align: left;
-    background-image: url(img/WhatsApp%20Image%202021-03-03%20at%209.59.33%20PM.jpeg);
+    background-image: url(img/nuestros.jpeg);
     background-attachment: fixed;
-    background-position: right;
-    padding-left: 5%;
+    background-position: left;
+    padding-left: 1.5%;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .rating
