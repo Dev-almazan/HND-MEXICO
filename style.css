@@ -462,13 +462,207 @@ list-style: none;}
 #barrad
 {
     display: block;
+    
 }
     
     /*BANNER*/
 .banner
 {
-    padding-top: 25%;
+    padding-top: 35%;
+    padding-bottom: 5%;
 }
 
+  .carousel-indicators {
+    position: relative;
+    justify-content: center;
+    list-style: none;
+    margin:.5%;
+   
+}
+#cic
+{
+padding: .5%;
+    background-color:  #CB9959;
+    color:#CB9959;  
+}
+/* PRODUCTOS */
+.divi
+{
+    padding-top: 3%;
+}
+.divif
+{
+   padding-bottom: 5%;
+}
+.productos
+{
+    max-width: 100%;
+    height: auto;
+   backface-visibility: hidden;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: grid;
+   padding-left: 0%;
+    padding-right: 0%;
+   
+    
+}
+.pros
+{
+    max-width: 100%;
+    height: auto;
+backface-visibility: hidden;
+    margin: 5% auto;
+    padding: 1.5%;
+    
+}
+.cuadro1
+{
+     max-width: 100%;
+    width: 300px;
+height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url(img/tres.png);
+ background-attachment: scroll;
+    background-repeat: no-repeat;
+  padding-bottom: 40%;
+    padding-top:40%;
+       background-position: center;
+  background-size: contain;
+}
+
+.cuadro2
+{
+    max-width: 100%;
+   width: 300px;
+height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url(img/dos.png);
+ background-attachment: scroll;
+    background-repeat: no-repeat;
+ padding-bottom: 40%;
+    padding-top:40%;
+       background-position: center;
+ background-size: contain;
+}
+
+.cuadro3
+{
+    max-width: 100%;
+    width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url(img/uno.png);
+ background-attachment: scroll;
+    background-repeat: no-repeat;
+  padding-bottom: 40%;
+    padding-top:40%;
+    background-position: center;
+    background-size: contain;
+
+    
+}
+
+.lpro
+{
+    color: white;
+    font-weight: 500;
+    background-color: #CB9959;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    opacity: .8;
+}
+
+.plecat
+{
+    border-bottom: solid 8px #090916;
+    max-width: 90%;
+    margin: 0 auto;
+  padding-top: .5%;
+    padding-bottom: .3%;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    color: #090916;
+   text-align: center;
+}
+
+.plecatt
+{
+       border-bottom: solid 8px #090916;
+    max-width: 31%;
+
+    padding-top: .5%;
+    padding-bottom: .3%;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+    margin-top: 15;
+    color: #090916;
+   text-align: center;
+}
+
+
+/*NUESTROS CLIENTES*/
+
+.clientes
+{
+    max-width: 100%;
+    height: auto;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    text-align: left;
+    background-image: url(img/WhatsApp%20Image%202021-03-03%20at%209.59.33%20PM.jpeg);
+    background-attachment: fixed;
+    background-position: right;
+    padding-left: 5%;
+    background-size: contain;
+}
+
+.rating
+
+
+{display: flex;
+text-align: left;
+list-style: none;}
+
+.clientesd
+{
+    max-width: 100%;
+    height: auto;
+    padding: 5.5%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: left;
+    overflow-y: scroll;
+    max-height: 100%;
+    height: 500px;
+    border-radius: 12px ;
+}
+
+/*PIE */
+
+.pie
+{
+    
+    max-width: 100%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #CB9959 ;
+    border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
+    font-size: .9em;
+    background-attachment: fixed;
+}
+
+  
 
 }
