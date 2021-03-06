@@ -4,12 +4,39 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 body {
 font-family: 'Montserrat', sans-serif; 
 background-color: whitesmoke;
+    
+}
+
+
+#efectos
+{
+    -webkit-transition:padding .3s,color 1s,border .5s,   background 1s; 
+    -mozkit-transition:padding .3s,color 1s,border .5s,   background 1s; 
+}
+
+#efectos:hover   
+{
+padding: 1.5%;
+}
+
+
+#efectosc
+{
+    -webkit-transition:padding .2s,color 1s,border .5s,   background 1s; 
+    -mozkit-transition:padding .2s,color 1s,border .5s,   background 1s; 
+}
+
+#efectosc:hover   
+{
+padding-top:28%;
+}
+
+*{
+ scroll-behavior:smooth;     
 }
 .btn-boton
 {
