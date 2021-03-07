@@ -11,7 +11,19 @@ background-color: whitesmoke;
     
 }
 
-
+.btn-whatsapp {
+        display:block;
+        width:100px;
+        height:auto;
+        color:#fff;
+        position: fixed;
+        right:20px;
+        bottom:20px;
+        border-radius:50%;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+}
 #efectos
 {
     -webkit-transition:padding .3s,color 1s,border .5s,   background 1s; 
