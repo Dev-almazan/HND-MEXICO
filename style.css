@@ -63,6 +63,19 @@ padding-top:28%;
     font-weight: 600;
     border: 2px solid white;
 }
+.btn-dorado
+{
+    background-color: #CB9959;
+    color: white;
+    border: 2px solid #090916;
+    
+}
+.btn-dorado:hover {
+    color: whitesmoke;
+    background: #CB9959;
+    font-weight: 600;
+    border: 2px solid white;
+}
 .azul
 {
 color:#090916 ;    
