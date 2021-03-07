@@ -13,16 +13,16 @@ background-color: whitesmoke;
 
 .btn-whatsapp {
         display:block;
-        width:100px;
+        width:90px;
         height:auto;
-        color:#fff;
+        color: #CB9959;
         position: fixed;
-        right:20px;
-        bottom:20px;
+        right:5px;
+        bottom:80px;
         border-radius:50%;
         line-height:80px;
         text-align:center;
-        z-index:999;
+        z-index:1000;
 }
 #efectos
 {
