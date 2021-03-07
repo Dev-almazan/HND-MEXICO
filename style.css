@@ -487,6 +487,21 @@ list-style: none;}
     background-attachment: fixed;
 }
 
+/*PRODUCTOS*/
+
+.productoss
+{
+    max-width: 100%;
+    height: auto;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-align: center;
+   background-color: gray;
+    background-attachment: fixed;
+    background-position: right;
+margin: 0 auto;
+    background-size: contain;
+}
 
 
 
@@ -733,5 +748,18 @@ list-style: none;}
     display: block;
 }
 
+.productoss
+{
+    max-width: 100%;
+    height: auto;
+    padding-top: 37%;
+    padding-bottom: 17%;
+    text-align: center;
+   background-color: gray;
+    background-attachment: fixed;
+    background-position: right;
+margin: 0 auto;
+    background-size: contain;
+}
 
 }
