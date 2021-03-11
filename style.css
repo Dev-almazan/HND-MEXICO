@@ -57,6 +57,10 @@ padding-top:28%;
     border: 2px solid #090916;
     
 }
+.dorados
+{
+    color: #CB9959;
+}
 .btn-boton:hover {
     color: whitesmoke;
     background: #CB9959;
@@ -67,7 +71,7 @@ padding-top:28%;
 {
     background-color: #CB9959;
     color: white;
-    border: 2px solid #090916;
+    border: 2px solid white;
     
 }
 .btn-dorado:hover {
@@ -532,7 +536,17 @@ margin: 0 auto;
 {
     font-weight: 600;
 }
-
+.benul
+{
+    line-height: 34px;
+    color:black;
+    font-weight: 600;
+    
+}
+.detallec
+{
+    margin-top: .2%;
+}
 /* ---------------------------------------------------
     CELULARES
 ----------------------------------------------------- */
@@ -789,5 +803,8 @@ list-style: none;}
 margin: 0 auto;
     background-size: contain;
 }
-
+.detallec
+{
+    margin-top: 13%;
+}
 }
