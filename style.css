@@ -541,11 +541,19 @@ margin: 0 auto;
     line-height: 34px;
     color:black;
     font-weight: 600;
+    list-style: none;
     
 }
 .detallec
 {
-    margin-top: .2%;
+    max-width: 94%;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: auto;
+    padding-bottom: 10%;
+    padding-top: 2.5%;
+   margin-top: .5%;
+    justify-content: center;
 }
 /* ---------------------------------------------------
     CELULARES
@@ -803,8 +811,15 @@ list-style: none;}
 margin: 0 auto;
     background-size: contain;
 }
-.detallec
+    .detallec
 {
-    margin-top: 13%;
+    max-width: 95%;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: auto;
+    padding-bottom: 10%;
+    padding-top: 2.5%;
+   margin-top: 13%;
 }
+
 }
