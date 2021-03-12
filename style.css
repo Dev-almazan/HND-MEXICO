@@ -11,6 +11,10 @@ background-color: whitesmoke;
     
 }
 
+.dorada
+{
+    color: #CB9959;
+}
 .btn-whatsapp {
         display:block;
         width:90px;
@@ -502,9 +506,10 @@ list-style: none;}
     text-align: center;
 background-image: url(img/nuestros.jpeg);
     background-attachment: fixed;
-    background-position: right;
+    background-position: center;
 margin: 0 auto;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .piedos
@@ -539,21 +544,32 @@ margin: 0 auto;
 .benul
 {
     line-height: 34px;
-    color:black;
+    color:#090916;
     font-weight: 600;
     list-style: none;
+    text-align: left;
     
 }
 .detallec
 {
-    max-width: 94%;
-    padding-left: 20%;
-    padding-right: 20%;
+
+   margin-top: 2.5%;
+   max-width:85%;
+    margin: 0 auto;
     height: auto;
-    padding-bottom: 10%;
-    padding-top: 2.5%;
-   margin-top: .5%;
-    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+    display: flex;
+  
+}
+
+.columd
+{
+    max-width: 55%;
+    height: auto;
+    padding: 2%;
+    margin: 0 auto;
 }
 /* ---------------------------------------------------
     CELULARES
@@ -802,24 +818,47 @@ list-style: none;}
 {
     max-width: 100%;
     height: auto;
-    padding-top: 37%;
-    padding-bottom: 17%;
+    padding-top: 25%;
+    padding-bottom: 15%;
     text-align: center;
-   background-color: gray;
     background-attachment: fixed;
-    background-position: right;
+    background-position: center;
 margin: 0 auto;
-    background-size: contain;
+    background-size: cover;
+    
 }
-    .detallec
+.detallec
 {
-    max-width: 95%;
-    padding-left: 2%;
-    padding-right: 2%;
+
+   margin-top: 2.5%;
+   max-width:100%;
+    margin: 0 auto;
     height: auto;
-    padding-bottom: 10%;
-    padding-top: 2.5%;
-   margin-top: 13%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+    display: grid;
+    backface-visibility: hidden;
+}
+
+.columd
+{
+    max-width: 100%;
+    height: auto;
+    padding: .5%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+ 
+}
+    .benul
+{
+    line-height: 30px;
+    color:#090916;
+    font-weight: 600;
+    list-style: none;
+    text-align: center;
+    
 }
 
 }
